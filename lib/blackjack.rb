@@ -71,9 +71,9 @@ end
 def runner
   # code runner here
   welcome
-  ini_num = initial_round
-  until ini_num > 21
-    hit?
+  total = initial_round
+  until total > 21
+    hit?(total)
   end
 end
     
